@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <script src="https://kit.fontawesome.com/03c6fcb218.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header id="header1"><h1>TodoInput</h1></header>
+    <section class="todoinput">
+        <form id="form">
+            <div>
+                <label for="newtodo"><i class="fa-solid fa-book"></i></label>
+                <input type="text" id="newtodo" placeholder="New Todo" /><br />
+            </div>
+            <button type="submit">Add new task</button><br />
+        </form>
+    </section>
+    <section class="section2">
+        <h1>TodoList</h1>
+        <div class="selection">
+            <button type="button" id="all" onclick="all()">All</button>
+            <button type="button" id="done" onclick="done()">Done</button>
+            <button type="button" id="todo" onclick="todo()">Todo</button>
+
+        </div>
+     </section>
+
+    <section class="items">
+            <ul id="alltasklist"></ul>
+    </section>
+        <footer>
+            <div class="deletion">
+                <button type="button" onclick="allDone()" >Delete done tasks</button>
+                <button type="button" onclick="deleteAll()">Delete all tasks</button>
+
+            </div>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

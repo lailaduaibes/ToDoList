@@ -1,0 +1,139 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin: 16px 70px;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+.todoinput{
+    border:2px solid grey;
+    padding:20px;
+    height:100%;
+    border-radius:10px;
+
+}
+.todoinput form label {
+    color: teal;
+    width:5%;
+    font-size:37px;
+
+
+
+}
+
+.todoinput form #newtodo{
+    width:95%;
+    float:right;
+    padding:12px;
+}
+.todoinput button{
+    width:100%;
+    background-color:teal;
+    color:white;
+    margin-top:12px;
+    border:none;
+    padding:12px;
+}
+header h1{
+    text-align:center;
+    font-size:24px;
+}
+.section2 h1 {
+    text-align: center;
+    font-size: 24px;
+}
+.section2 {
+    display:block;
+    text-align:center;
+    width:100%;
+
+}
+.selection {
+    display: flex;
+    width: 100%;
+}
+
+    .selection button {
+        color: white;
+        background-color: teal;
+        display: inline-block;
+        text-align: center;
+        padding: 12px;
+        margin-top: 10px;
+        width: 32%;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+.items ul{
+    margin-top:100px;
+}
+#listitem {
+    clear: right;
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 5px -45px;
+    display: inline-block;
+    width: 100%;
+    list-style: none;
+}
+ 
+#listitem span{
+    float:left;
+    
+}
+#listitem div{
+    float:right;
+    margin-right:16px;
+   
+}
+#listitem button{
+    border:none;
+    background-color:none;
+    margin:0px 16px;
+    font-size:20px;
+
+}
+    #listitem  button i.fa-solid.fa-trash {
+        color: red;
+       
+    }
+    #listitem button i.fa-solid.fa-pencil {
+        color:orange;
+        
+    }
+.deletion button{
+    color:white;
+    float:left;
+    background-color:crimson;
+    width:49%;
+    border:none;
+    margin-right:12px;
+    margin-top:16px;
+    margin-bottom:30px;
+    padding:12px;
+    border-radius:5px;
+    position:sticky;
+
+
+}
+
+button:hover{
+    color:teal;
+    background-color:ghostwhite;
+    padding-right:5px;
+}
+.items{
+    display:block;
+    padding:5px;
+}
+#alltasklist input[type='checkbox'] {
+    transform: scale(1.5);
+    background-color: lawngreen;
+    margin: 0px 16px;
+}
+
